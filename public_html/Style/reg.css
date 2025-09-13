@@ -1,0 +1,71 @@
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+#panel {
+    background-color: #ffffff;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#button {
+    margin-top: 30px;
+    border: solid 0px;
+    border-radius: 0;
+    width: 312px;
+    height: 30px;
+    background-image: linear-gradient(to right, rgba(0,165,232,1) 15%, rgba(30,209,198,1) 35%, rgba(30,209,198,1) 65%, rgba(135,206,235,1) 85%);
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 20px;
+    background-position: left;
+    background-size: 150%;
+    transition: 1s background-image ease-in-out;
+}
+
+#button:hover {
+    background-position: right;
+}
+
+h1 {
+    padding-top: 30px;
+}
+
+#input_form {
+    width: 300px;
+    height: 30px;
+    border-radius: 0;
+    border: solid 1px #bfbfbf;
+    padding-left: 1.25vh;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+.a2 {
+    position: relative;
+    font-size: 14px;
+    top: 185px;
+}
+
+.a {
+    position: relative;
+    font-size: 14px;
+    top: 70px;
+}
+
+#href {
+    color: #1ed1c6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#alert {
+    color: red;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
